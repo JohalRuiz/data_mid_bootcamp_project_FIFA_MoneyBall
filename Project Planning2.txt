@@ -1,0 +1,12 @@
+0 row(s) affected, 6 warning(s): 
+- 1681 Integer display width is deprecated and will be removed in a future release. 
+- 1287 'YEAR(4)' is deprecated and will be removed in a future release. Please use YEAR instead 
+- 1681 Integer display width is deprecated and will be removed in a future release. 
+- 1681 Integer display width is deprecated and will be removed in a future release. 
+- 1681 Integer display width is deprecated and will be removed in a future release. 
+- 3719 'utf8' is currently an alias for the character set UTF8MB3, but will be an alias for UTF8MB4 in a future release. Please consider using UTF8MB4 in order to be unambiguous.
+
+
+0 row(s) affected, 2 warning(s): 
+- 1681 Integer display width is deprecated and will be removed in a future release. 
+- 3719 'utf8' is currently an alias for the character set UTF8MB3, but will be an alias for UTF8MB4 in a future release. Please consider using UTF8MB4 in order to be unambiguous.

@@ -1,0 +1,36 @@
+Chapter I: Planning
+Step 1: Look at the data cast upon you, by going over the columns and their meaning.
+Step 2: Brainstorm over the dataset. This is easier if you have market knowledge:
+			* Analytics: what valuable information can i obtain using statistics?
+			* ML: what columns could be predicted based on the others?
+				  what are the benefits of this prediction for the business?
+Step 2.1: No market knowledge? Ask the oracle.
+Step 3: Plan out and schedule your project (how many days to do it, what to do in each day)
+
+Chapter II: Coding
+Step 4: Basic data cleaning. Nulls shall not pass. Data types must make sense.
+Step 5: EDA is your friend and will help you make sense of your data and understand you ML model.
+Step 5.1.: What valuable information can I obtain using statistics?
+Step 5.1.: Plots and storytelling will iluminate you in this journey - you'll witness the value of Tableau.
+Step 5.2.: Revisit your thoughts on Step 2, specially if you don't have the specific market knowledge.
+Step 6: Run the model dry - only essential transformations, i.e.:
+			* dealing with nulls,
+			* having the correct types in each column,
+			* encoding your categoricals.
+Step 6.1: Have a benchmark (r2_score, mae, rmse).
+Step 7: Check your results - where are the bad predictions coming from? can you tell, from experience and market knowledge, how to make the model better?
+
+Chapter III: Rinse and Repeat
+Step 8: Double Check your data cleaning process: what have you done with the nulls? is there anything you could have done differently with your variables?
+Step 9: Feature scaling - Normalizer, StandardScaler, MinMaxScaler, log, BoxCox.
+Step 10: Run the model
+Step 11: Compare results. New vs Old benchmarks - keep the best.
+Step 12: Analyze results. Why is it better/worse?
+Step 13: Write down your findings.
+Step 14: [repeat(step) if not satisfied else congrats for step in steps[6:]]
+
+Tips
+Think like the decision maker.
+Go after the market knowledge.
+Be curious and creative - it's normal to waste time on processes that won't result but...
+Be resilient.
